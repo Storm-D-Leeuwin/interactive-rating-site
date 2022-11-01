@@ -1,0 +1,54 @@
+.wrapper {
+    height: 80%;
+    width: 80%;
+}
+
+
+.container-rating {  
+
+    display: flex;
+    flex-direction: column;
+
+    /* display: none; */
+}
+
+.phone {
+    height: 100px;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selected-btn {
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+    padding: 10px;
+    border-radius: 100px;
+}
+
+
+.thankyou-note {
+    color: white;
+    font-size: 22px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20px;
+}
+
+.appreciate-note {
+    text-align: center;
+    margin-top: 5px;
+    color: hsl(217, 12%, 63%);
+}
